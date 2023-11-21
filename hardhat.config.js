@@ -23,8 +23,8 @@ module.exports = {
   },
   networks: {
     matic: {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/YOUR_APP",
-      accounts: ["MATIC_PRIVATE_KEY"]
+      url: "https://polygon-mumbai.g.alchemy.com/v2/EnEtz3AfgOs7xbpJobchcKealJ36K_WF",
+      accounts: ["8dfae84f983511a7145298b117bb81df8d93011e60111b71e9d0f9ce6bb695a7"]
     }
   },
 };

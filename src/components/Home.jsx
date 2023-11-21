@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 import FiredGuys from '../artifacts/contracts/MyNFT.sol/FiredGuys.json';
 
-const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+const contractAddress = '0x1B8339Fd4A899DD4b99da37C9B02d42510a6649F';
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
@@ -32,7 +32,7 @@ function Home() {
     <div>
       <WalletBalance />
 
-      <h1>Fired Guys NFT Collection</h1>
+      <h1>ENES NFT Collection</h1>
       <div className="container">
         <div className="row">
           {Array(totalMinted + 1)
