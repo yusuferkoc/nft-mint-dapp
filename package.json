@@ -2,8 +2,8 @@
   "name": "web3app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite build",
+    "build": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
